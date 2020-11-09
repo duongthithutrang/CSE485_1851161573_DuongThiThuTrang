@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Courses</title>
+</head>
+
+<body>
+    <!-- <---------------------Menu------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid" style="width: 300px;">
+            <a class="navbar-brand" href="../Home/home.php" style="color: white;">Datamonkey</a>
+        </div>
+        <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Home/home.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../blog/Blog.html" style="color: white;">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../courses/Course.html">Courses</a>
+                </li>
+                <li>
+                    <button type="button" id="buttonSignin" class="btn btn-primary"><a href="../SignIn/SignIn.php" style="color: white;">SIGN IN</a></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <---------------------Menu------------------------------->
+    <!-- <---------------------Courses------------------------------->
+    <div class="container-fluid" id="Courses">
+        <div class="row">
+            <img src="image/poster.png" id="poster" alt="">
+        </div>
+        <div class="row" id="CoursesCard">
+            <div class="col-lg-4 card-item">
+                <div class="card" style="width: 18rem; margin-left: 50%;">
+                    <img src="image/imgCourse1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL for Data Aggregation</h5>
+                        <p class="card-text">Learn how to manipulate data using various SQL queries.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Start course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 card-item">
+                <div class="card" style="width: 18rem; margin-left: 22%;">
+                    <img src="image/imgCourse2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Try spreadsheets</h5>
+                        <p class="card-text">Learning how to use formulas can reveal the full power of spreadsheets</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Start course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 card-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="image/imgCourse3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Descriptive statistics</h5>
+                        <p class="card-text">Learn how to analyze data using descriptive statistics.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Coming soon(subcribe)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <---------------------Courses------------------------------->
+    <!-- <---------------------footer------------------------------->
+    <div class="container-fluid" id="footer" style="background-color: #2d2a2a;">
+        <div class="row" id="footIcon">
+            <img src="image/mailicon.png" alt="" id="mailicon">
+        </div>
+        <div class="row" id="footLink"><a href="">mail@datamonkey.pro</a></div>
+        <div class="row " id="copyright">
+            <p>Datamonkey &copy 2020</p>
+        </div>
+    </div>
+    <!-- <---------------------footer------------------------------->
+</body>
+
+</html>

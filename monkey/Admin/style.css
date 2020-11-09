@@ -1,0 +1,179 @@
+/* CSS Document */
+.page{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.banner{
+	width:1000px;
+	height:125px;
+	text-align:center;
+}
+.main-menu{	
+	margin-left:5px;
+	height:40px;
+	background-color:#F07800;
+	margin-top:5px;	
+}
+.each-menu{
+	padding:5px 10px;
+	float:left;	
+	border-right:1px solid #000000;
+	line-height:30px;
+}
+.each-menu-active{
+	padding:5px 10px;
+	float:left;	
+	border-right:1px solid #000000;
+	line-height:30px;
+	background-color:#016AA7;
+}
+.each-menu a{
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.each-menu-active a{	
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.each-menu a:hover,.each-menu-active a:hover{
+	text-decoration:underline;
+}
+.center{
+	height:auto;
+	margin-left:5px;
+	margin-top:10px;	
+	margin-bottom:10px;
+}
+.left-menu{
+	float:left;
+	width:250px;
+	height:400px;
+	background-color:#CB9696;	
+	padding-top:10px;
+}
+.sub-menu,.sub-menu-active{
+	background:transparent url(images/bg-menu.png) repeat-x scroll 0 0;
+	height:48px;
+	line-height:48px;
+	margin:7px 10px 0 15px;
+	text-indent:20px;
+	width:214px;
+}
+.sub-menu a{
+	color:#1A1A1A;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	line-height:42px;
+	text-decoration:none;
+}
+.sub-menu-active a{
+	color:#B30000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	line-height:42px;
+	text-decoration:underline;
+}
+.sub-menu a:hover, .sub-menu-active a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+	line-height:30px;
+	line-height:42px;
+}
+.content{
+	float:left;
+	width:720px;
+	margin-left:10px;
+	margin-bottom:10px;
+	background-color:#EAF4F4;
+	height:auto;
+	padding-bottom:10px;
+}
+.login{
+	background:#F07800 none repeat scroll 0 0;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:200px;
+	margin-bottom:50px;
+	margin-left:250px;
+	margin-top:50px;
+	padding:20px 50px;
+	width:400px;
+}
+
+/*module khoa hoc*/
+.title-module{	
+	font-size:15px;
+	font-weight:bold;	
+	line-height:30px;	
+	margin-top:15px;	
+	text-align:center;
+}
+.filter{
+	margin:10px;
+	height:40px;
+}
+div.list-course{
+	margin:10px;
+	padding:0px 10px;	
+}
+table.list-course a{
+	text-decoration:none;
+	color:#000000;
+}
+table.list-course, table.list-course td{
+	border:1px solid #cccccc;
+	border-collapse:collapse;
+	padding:5px;
+}
+.filter .label, .filter .value, .filter .search{
+	float:left;	
+	margin-left:10px;
+}
+.row-first{
+	background-color:#FFE7CE;
+	font-weight:bold;
+	text-align:center;
+}
+.col-first{
+	background-color:#EFF8F8;	
+	font-weight:bold;
+}
+div.task{
+	margin-top:5px;
+}
+/* sua thong tin khoa hoc*/
+.table-form-edit{
+	margin-bottom:10px;
+}
+.table-form-edit td{
+	padding:5px;
+	height:30px;
+}
+footer img {
+	height: 100px;
+	display: block;
+	margin: 0 auto; 
+}
+
+#footer #footLink a {
+	margin: 0 auto;
+}
+
+#footer #footLink a:hover {
+	color: yellow;
+}
+
+#footer #copyright p {
+	display: block;
+	margin: 0 auto;
+	color: white
+}

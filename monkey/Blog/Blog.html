@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <!-- <---------------------Menu------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid" style="width: 300px;">
+            <a class="navbar-brand" href="../Home/home.php" style="color: white;">Datamonkey</a>
+        </div>
+        <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Home/home.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../blog/Blog.html" style="color: white;">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../courses/Course.html">Courses</a>
+                </li>
+                <li>
+                    <button type="button" id="buttonSignin" class="btn btn-primary"><a href="../SignIn/SignIn.php" style="color: white;">SIGN IN</a></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <---------------------Menu------------------------------->
+    <!-- <---------------------Blog------------------------------->
+    <div class="container" id="Blog">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row"><img src="image/blog1.png" alt="" class="imgBlog"></div>
+                <div class="row">
+                    <h2>Why Venn diagram is a bad choice to illustrate JOIN clause</h2>
+                    <p>Leonid Toshchev, March 25, 2015, 5:46 p.m.</p>
+                    <p>Historically, in order to explain the concept of JOIN clause authors of textbooks and tutorials use a Venn diagram. I do not know who was the first to use it, but this addiction firmly stuck in the minds of everyone who has ever explained
+                        an operator of the connection in SQL. I will show flaws of this approach by giving you an example.</p>
+                </div>
+                <div class="row link2"><a href="">Continue reading this post</a></div>
+                <div class="row"><img src="image/blog2.png" alt="" class="imgBlog"></div>
+                <div class="row">
+                    <h2>SQL tips 'n tricks</h2>
+                    <p>Using SQL every day for many years, I have found for myself a few useful tricks. Maybe it cannot be called full-fledged tricks, but rather approaches to solving certain simple tasks that save us time and effort.</p>
+                </div>
+                <div class="row link2"><a href="">Continue reading this post</a></div>
+                <div class="row"><img src="image/blog3.png" alt="" class="imgBlog"></div>
+                <div class="row">
+                    <h2>Your boss will be shocked. Five little-known Excel tricks.</h2>
+                    <p>Ilya Parshin, Dec. 22, 2014, 9:13 p.m.</p>
+                    <p>Sometimes enough a few effective tricks to get promoted. Learn how you can work more efficiently in Excel using five simple tricks.</p>
+                </div>
+                <div class="row link2"><a href="">Continue reading this post</a></div>
+                <div class="row"><img src="image/blog4.png" alt="" class="imgBlog"></div>
+                <div class="row">
+                    <h2>You will be fired immediately. 10 things you should never do in Excel.</h2>
+                    <p>Ilya Parshin, Dec. 12, 2014, 8:28 p.m.</p>
+                    <p>We have tried to collect information on what actions can kill your boss. If you do not want to harm and want to enjoy your work - feel free to read.</p>
+                </div>
+                <div class="row link2"><a href="">Continue reading this post</a></div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row" style="margin-top: 70px;">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search on blog..." aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav aria-label="...">
+                <ul class="pagination"> 
+                    <ul>
+                        <li>
+                            <li>:
+                                <li class="page-item disabled"> <span class="page-link">Previous</span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a>
+                                </li>
+                                <li class="page-item"> <a class="page-link" href="#">Next</a>
+                                </li>
+                    </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- <---------------------Blog------------------------------->
+    <!-- <---------------------footer------------------------------->
+    <div class="container-fluid" id="footer" style="background-color: #2d2a2a;">
+        <div class="row" id="footIcon">
+            <img src="image/mailicon.png" alt="" id="mailicon">
+        </div>
+        <div class="row" id="footLink"><a href="">mail@datamonkey.pro</a></div>
+        <div class="row " id="copyright">
+            <p>Datamonkey &copy 2020</p>
+        </div>
+    </div>
+    <!-- <---------------------footer------------------------------->
+</body>
+
+</html>
